@@ -56,8 +56,10 @@ kramdown:
 
 
 # Disqus settings
-comments: true
-disqus_username: canisyue
+disqus:
+  enable: true
+
+disqus_username: https-canisyue-github-io
 
 # Netease settings
 netease_comment: false
