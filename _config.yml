@@ -12,9 +12,10 @@ baseurl: ""                             # for example, '/blog' if your blog host
 future: true
 
 # SNS settings
-RSS: false
+# RSS: true
 
 github_username:    CanisYue
+# weibo_username: huxpro      # 你的微博账号，底部链接会自动更新的。
 jianshu_username: Oswin_99
 
 
@@ -55,7 +56,8 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+comments: true
+disqus_username: canisyue
 
 # Netease settings
 netease_comment: false
@@ -81,7 +83,7 @@ sidebar-avatar: /img/selfie.jpg      # use absolute URL, seeing it's used in bot
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
 
 
 
@@ -98,36 +100,39 @@ page-mathjax: false
 
 # Friends
 friends: [
-  {}
+    {
+      title: "Jianshu",
+      href: "https://www.jianshu.com/u/73181ef09d97"
+    },
     # {
-    # #     title: "Su",
-    # #     href: "http://su.gallery/"
-    # # },{
-    # #     title: "乱序",
-    # #     href: "http://mida.re/"
-    # # },{
-    # #     title: "Sherry Wu",
-    # #     href: "https://xuechundesign.github.io"
-    # # },{
-    # #     title: "Luke 的自留地",
-    # #     href: "http://hmqk1995.github.io"
-    # # },{
-    # #     title: "Ebn's Blog",
-    # #     href: "http://ebnbin.com/"
-    # # },{
-    # #     title: "SmdCn's Blog",
-    # #     href: "http://blog.smdcn.net"
-    # # },{
-    # #     title: "JiyinYiyong",
-    # #     href: "http://tiye.me/"
-    # # },{
-    # #     title: "David's Game",
-    # #     href: "https://www.ruoyaowu.com/"
-    # # },{
-    # #     title: "DHong Say",
-    # #     href: "http://dhong.co"
-    # # },{
-    # #     title: "尹峰以为",
-    # #     href: "http://ingf.github.io/"
+    #     title: "Jianshu",
+    #     href: "https://www.jianshu.com/u/73181ef09d97"
+    # },{
+    #     title: "乱序",
+    #     href: "http://mida.re/"
+    # },{
+    #     title: "Sherry Wu",
+    #     href: "https://xuechundesign.github.io"
+    # },{
+    #     title: "Luke 的自留地",
+    #     href: "http://hmqk1995.github.io"
+    # },{
+    #     title: "Ebn's Blog",
+    #     href: "http://ebnbin.com/"
+    # },{
+    #     title: "SmdCn's Blog",
+    #     href: "http://blog.smdcn.net"
+    # },{
+    #     title: "JiyinYiyong",
+    #     href: "http://tiye.me/"
+    # },{
+    #     title: "David's Game",
+    #     href: "https://www.ruoyaowu.com/"
+    # },{
+    #     title: "DHong Say",
+    #     href: "http://dhong.co"
+    # },{
+    #     title: "尹峰以为",
+    #     href: "http://ingf.github.io/"
     # }
 ]
